@@ -4,7 +4,7 @@ services:
   box-hg-gateway:
     image: "ci-cd-project-homolog:${CODE_SC_HG}"
     ports:
-      - 8380:8080
+      - 8380:9090
     environment:
       - nome.ambiente=Homologação
     deploy:
